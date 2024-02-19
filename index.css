@@ -65,11 +65,8 @@
                padding: 8px 8px;
                background-color: green;
           }
-          #search input{
-               color: white;
-               border-bottom: 5px solid white;
-          }
-          placeholder-shown{
-               color: white;
+          #container{
+               background-image: url(./wea.jpg);
+               background-size: cover;
           }
      }
