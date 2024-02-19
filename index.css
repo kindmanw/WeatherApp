@@ -1,0 +1,62 @@
+     *{
+          margin: 0;
+          padding: 0;
+     }
+     #container{
+          width: 100%;
+          padding-top: 3vh;
+          display: flex;
+          flex-direction: column;
+          height: 97vh;
+          background-image: url(../WeatherApp/weee.jpg);
+          background-size: cover;
+          /* background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(39, 100%, 50%)); */
+     }
+     #location, #description, #search{
+          box-shadow: 2px 2px 2px 2px gray;
+          margin: 25px auto;
+          border: 1px solid black;
+          font-size: 2em;
+          font-weight: bolder;
+          border-radius: 5px;
+          width: 30%;
+          height: 30vh;
+          /* margin-bottom: 50px; */
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+          font-family: sans-serif;
+     }
+     #search input{
+          height: 50px;
+          width: 80%;
+          background-color: inherit;
+          font-size: inherit;
+          border: none;
+          text-align: center;
+          color: black;
+          margin: 15px 1px;
+          border-bottom: 2px solid;
+     }
+     #search button{
+          width: fit-content;
+          padding: 10px 10px;
+          font-size: 1.6rem;
+          border-radius: 10px;
+          /* margin-top: 20px; */
+          background-color: gray;
+          cursor: pointer;
+     }
+     button:hover{
+          background-color: white;
+     }
+
+     @media(max-width: 600px){
+          #location, #description, #search{
+               width: 80%;
+
+          }
+     }
